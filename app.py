@@ -5,7 +5,8 @@ import pandas as pd
 from pprint import pprint
 from datetime import datetime
 
-st.write("# Brain Image Library Inventory Status")
+st.image('https://ondemand.bil.psc.edu/public/nav-logo.png')
+st.write("# Daily Inventory Status")
 
 @st.cache_data
 def get_data():
